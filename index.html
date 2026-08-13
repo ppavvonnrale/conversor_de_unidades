@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #res{
+            display: inline;
+        }
+       #contenedor {
+            background: #954242;
+    width: 50%;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 6px;
+    color: cornsilk;
+    align-content: center;
+    inline-size: fit-content;
+    padding: 10px;
+       }
+    </style>
+</head>
+<body>
+    <div id="contenedor">
+        <label for="desde">De: </label>
+        <select onchange="calculo()" name="desde" id="desde">
+            <option value="100">cm</option> 
+            <option value="1">m</option> 
+            <option value="1000">mm</option> 
+        </select>
+        <input onchange="calculo()" type="number" name="" id="unidad">
+        <label for="hacia">A: </label>
+        <select onchange="calculo()" name="hacia" id="hacia">
+            <option value="100">cm</option> 
+            <option value="1">m</option> 
+            <option value="1000">mm</option> 
+        </select>
+        <div id="res"></div>
+    </div>
+    <script type="text/javascript">
+        function calculo() {
+          var x = (unidad.value * hacia.value) / desde.value;
+          res.innerText = " = "+x;
+        }
+    </script>
+</body>
+</html>
