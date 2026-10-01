@@ -1,142 +1,85 @@
-# conversor_de_unidades
-Conversor de Unidades
+```markdown
+# Conversor de Unidades 📏🌡️⚖️
 
-Programa sencillo que permite convertir diferentes unidades de medida de manera rápida y automática. El usuario selecciona la unidad de origen, la unidad de destino e ingresa el valor que desea convertir.
+Un programa sencillo e intuitivo desarrollado en Python para realizar conversiones entre diferentes unidades de medida (longitud, masa, temperatura, tiempo, entre otras).
 
+---
 
+## 🚀 Características
 
-Este proyecto fue desarrollado para practicar conceptos básicos de programación, como la entrada de datos, operaciones matemáticas, funciones y manipulación de resultados.
+* **Longitud:** Conversión entre metros, kilómetros, centímetros, milímetros, millas, yardas y pies.
+* **Masa/Peso:** Conversión entre kilogramos, gramos, libras y onzas.
+* **Temperatura:** Conversión entre grados Celsius, Fahrenheit y Kelvin.
+* **Interfaz sencilla:** Fácil de usar desde la terminal o consola.
 
-El programa puede utilizarse para realizar conversiones entre diferentes unidades, como:
+---
 
-Longitud: metros, kilómetros, centímetros, etc.
+## 🛠️ Requisitos Previos
 
-Peso: kilogramos, gramos, toneladas, etc.
+* **Python 3.x** instalado en tu sistema. Puedes comprobarlo ejecutando:
+  ```bash
+  python --version
 
-Temperatura: Celsius, Fahrenheit y Kelvin.
+```
 
-Otras unidades que se incorporen al programa.
+---
 
+## 📥 Instalación y Uso
 
-⚙️ Funcionamiento
+1. **Clona el repositorio:**
+```bash
+git clone [https://github.com/ppavvonnrale/conversor_de_unidades.git](https://github.com/ppavvonnrale/conversor_de_unidades.git)
 
-1. El usuario selecciona el tipo de unidad que quiere convertir.
+```
 
 
-2. Selecciona la unidad de origen.
+2. **Accede al directorio del proyecto:**
+```bash
+cd conversor_de_unidades
 
+```
 
-3. Selecciona la unidad de destino.
 
+3. **Ejecuta el script principal:**
+```bash
+python main.py
 
-4. Ingresa el valor que desea convertir.
+```
 
 
-5. El programa realiza el cálculo automáticamente.
+*(Asegúrate de reemplazar `main.py` por el nombre de tu archivo principal si es diferente).*
 
+---
 
-6. Se muestra el resultado de la conversión.
+## 📂 Estructura del Proyecto
 
+```text
+conversor_de_unidades/
+├── src/                # Código fuente del proyecto
+├── main.py             # Punto de entrada de la aplicación
+├── README.md           # Documentación del proyecto
+└── requirements.txt    # Dependencias (si aplica)
 
+```
 
-Ejemplo
+---
 
-Si el usuario ingresa:
+## 🤝 Contribuciones
 
-Valor: 5
-Unidad de origen: kilómetros
-Unidad de destino: metros
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto:
 
-El programa mostrará:
+1. Haz un **Fork** del repositorio.
+2. Crea una rama para tu función (`git checkout -b feature/nueva-funcion`).
+3. Realiza tus cambios y haz un commit (`git commit -m 'Añade nueva función'`).
+4. Haz Push a la rama (`git push origin feature/nueva-funcion`).
+5. Abre un **Pull Request**.
 
-5 km = 5000 m
+---
 
-Otro ejemplo:
+## 📄 Licencia
 
-Valor: 25
-Unidad de origen: Celsius
-Unidad de destino: Fahrenheit
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-Resultado:
+```
 
-25 °C = 77 °F
-
-🚀 Instalación
-
-1. Clonar el repositorio:
-
-
-
-git clone https://github.com/USUARIO/NOMBRE-DEL-REPOSITORIO.git
-
-2. Entrar en la carpeta del proyecto:
-
-
-
-cd NOMBRE-DEL-REPOSITORIO
-
-3. Abrir el archivo index.html en un navegador web.
-
-
-
-No es necesario instalar programas adicionales para utilizar la versión web.
-
-💻 Tecnologías utilizadas
-
-HTML5 — estructura de la aplicación.
-
-CSS3 — diseño y estilos.
-
-JavaScript — lógica y cálculos de las conversiones.
-
-Git — control de versiones.
-
-GitHub — almacenamiento y gestión del repositorio.
-
-
-📁 Estructura del proyecto
-
-conversor-unidades/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-🧮 Ejemplos de conversiones
-
-Longitud
-
-1 km = 1000 m
-1 m = 100 cm
-1 cm = 10 mm
-
-Peso
-
-1 kg = 1000 g
-1 tonelada = 1000 kg
-
-Temperatura
-
-°F = (°C × 9/5) + 32
-
-🎯 Objetivos del proyecto
-
-Practicar HTML, CSS y JavaScript.
-
-Aprender a trabajar con diferentes unidades de medida.
-
-Utilizar operaciones matemáticas y fórmulas.
-
-Trabajar con datos ingresados por el usuario.
-
-Practicar el uso de funciones y condicionales.
-
-Aprender a utilizar Git y GitHub.
-
-Documentar un proyecto mediante un archivo README.md.
-
-
-👨‍💻 Autor
-
-Proyecto realizado por Pavón Rocío como parte de un proyecto escolar de programación.
+```
