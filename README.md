@@ -1,4 +1,3 @@
-```markdown
 # Conversor de Unidades 📏🌡️⚖️
 
 Un programa sencillo e intuitivo desarrollado en Python para realizar conversiones entre diferentes unidades de medida (longitud, masa, temperatura, tiempo, entre otras).
@@ -80,6 +79,3 @@ Las contribuciones son bienvenidas. Si deseas mejorar este proyecto:
 
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
-```
-
-```
