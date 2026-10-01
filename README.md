@@ -16,10 +16,10 @@ Un programa sencillo e intuitivo desarrollado en Python para realizar conversion
 ## 🛠️ Requisitos Previos
 
 * **Python 3.x** instalado en tu sistema. Puedes comprobarlo ejecutando:
-  ```bash
+  bash
   python --version
 
-```
+
 
 ---
 
